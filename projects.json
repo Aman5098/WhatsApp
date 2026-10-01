@@ -1,0 +1,4 @@
+{
+  "dinera-backend": { "apiKey": "dineraSecretKey" },
+  "nexus-backend": { "apiKey": "nexusSecretKey" }
+}

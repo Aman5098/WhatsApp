@@ -2,5 +2,5 @@
 /.env
 /.wwebjs_auth
 /.wwebjs_cache
-/projects.json
+# /projects.json
 /.tenant-ownership.json
