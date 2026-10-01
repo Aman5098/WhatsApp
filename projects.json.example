@@ -1,0 +1,4 @@
+{
+  "nexusrealty-backend": { "apiKey": "replace-with-a-long-random-secret" },
+  "some-other-project": { "apiKey": "replace-with-a-different-long-random-secret" }
+}

@@ -1,0 +1,6 @@
+/node_modules
+/.env
+/.wwebjs_auth
+/.wwebjs_cache
+/projects.json
+/.tenant-ownership.json

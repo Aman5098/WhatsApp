@@ -1,0 +1,12 @@
+diff --git a/node_modules/whatsapp-web.js/src/util/Injected/Utils.js b/node_modules/whatsapp-web.js/src/util/Injected/Utils.js
+index 540078a..aab96d7 100644
+--- a/node_modules/whatsapp-web.js/src/util/Injected/Utils.js
++++ b/node_modules/whatsapp-web.js/src/util/Injected/Utils.js
+@@ -164,6 +164,7 @@ exports.LoadUtils = () => {
+                           sendToChannel: isChannel,
+                           sendToStatus: isStatus,
+                       });
++            delete mediaOptions.__x_id;
+             mediaOptions.caption = options.caption;
+             content = options.sendMediaAsSticker
+                 ? undefined
