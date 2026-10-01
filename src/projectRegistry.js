@@ -24,8 +24,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const PROJECTS_FILE = path.join(__dirname, '..', 'projects.json');
-// Override with TENANT_OWNERSHIP_FILE to keep it on a mounted volume — it
+const PROJECTS_FILE = process.env.PROJECTS_FILE || path.join(__dirname, '..', 'projects.json');// Override with TENANT_OWNERSHIP_FILE to keep it on a mounted volume — it
 // must survive restarts just like the sessions themselves.
 const OWNERSHIP_FILE = process.env.TENANT_OWNERSHIP_FILE || path.join(__dirname, '..', '.tenant-ownership.json');
 
